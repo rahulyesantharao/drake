@@ -42,21 +42,32 @@ lcm_wrap_types(
   lcmt_endless_road_oracle_output_t.lcm
   lcmt_euler_floating_joint_state_t.lcm
   lcmt_foot_flag.lcm
+  lcmt_footstep_params_t.lcm
+  lcmt_footstep_plan_params_t.lcm
+  lcmt_footstep_plan_request_t.lcm
+  lcmt_footstep_plan_t.lcm
+  lcmt_footstep_t.lcm
   lcmt_force_torque.lcm
+  lcmt_force_torque_t.lcm
   lcmt_iiwa_command.lcm
   lcmt_iiwa_status.lcm
+  lcmt_iris_region_t.lcm
   lcmt_joint_pd_override.lcm
+  lcmt_lin_con_t.lcm
   lcmt_maliput_railcar_params_t.lcm
   lcmt_maliput_railcar_state_t.lcm
   lcmt_piecewise_polynomial.lcm
   lcmt_polynomial.lcm
   lcmt_polynomial_matrix.lcm
+  lcmt_position_3d_t.lcm
   lcmt_qp_controller_input.lcm
   lcmt_qp_input.lcm
   lcmt_quadrotor_input_t.lcm
   lcmt_quadrotor_output_t.lcm
+  lcmt_quaternion_t.lcm
   lcmt_resolved_contact.lcm
   lcmt_robot_state.lcm
+  lcmt_robot_state_t.lcm
   lcmt_scope_data.lcm
   lcmt_schunk_wsg_command.lcm
   lcmt_schunk_wsg_status.lcm
@@ -64,6 +75,8 @@ lcm_wrap_types(
   lcmt_simple_car_state_t.lcm
   lcmt_simulation_command.lcm
   lcmt_support_data.lcm
+  lcmt_twist_t.lcm
+  lcmt_vector_3d_t.lcm
   lcmt_viewer_command.lcm
   lcmt_viewer_draw.lcm
   lcmt_viewer_geometry_data.lcm
