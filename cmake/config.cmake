@@ -47,7 +47,7 @@ macro(drake_setup_matlab)
       unset(_matlab_realpath)
       unset(_matlab_bindir)
 
-      set(MATLAB_ADDITIONAL_VERSIONS "R2017a=9.2" "R2016b=9.1")
+      set(MATLAB_ADDITIONAL_VERSIONS "R2017b=9.3" "R2017a=9.2" "R2016b=9.1")
 
       find_package(Matlab MODULE
         COMPONENTS

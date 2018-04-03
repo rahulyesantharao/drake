@@ -138,7 +138,7 @@ footstep_plan = FootstepPlan.from_footstep_plan_t(fplan, obj);
 % for i = 2:3
 %     footstep_plan.footsteps(i) = footstep_plan1.footsteps(i);
 % end
-for i=1:4
+for i=1:length(footstep_plan.footsteps)
     footstep_plan.footsteps(i).is_in_contact = 1;
 end
 
